@@ -1,0 +1,40 @@
+name: flutter_money_tracking_app
+description: "แอปบันทึกรายรับรายจ่าย"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+  font_awesome_flutter: ^11.0.0
+  google_fonts: ^8.0.2
+  intl: ^0.20.2
+  simple_shadow: ^0.3.1
+  supabase_flutter: ^2.12.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  icons_launcher: ^3.1.0
+
+# การตั้งค่า Icon (ระดับเดียวกับ name, dependencies)
+icons_launcher:
+  image_path: "assets/icon/icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
+    - assets/images/mabell.jpg
