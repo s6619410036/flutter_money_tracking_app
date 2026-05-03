@@ -1,4 +1,6 @@
-## flutter_money_tracking_app
+## Mobile Application with Flutter&Dart
+
+## UI Only for HomeUi, SigninUi, SignupUi
 
 <img width="300" src="https://github.com/user-attachments/assets/f0ae6eff-8f75-4deb-af39-df9ca019ad23" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
